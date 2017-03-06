@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.testing.firebase_login.MainActivity"
+    android:background="@color/common_google_signin_btn_text_dark_default"
+    android:weightSum="1">
+
+
+    <TextView
+        android:text="Welcome User"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentTop="true"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+         />
+
+    <TextView
+        android:text="Email"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView9"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+
+    <ImageView
+        android:layout_width="167dp"
+        android:layout_height="89dp"
+        app:srcCompat="@drawable/pic"
+        android:id="@+id/imageView"
+        android:layout_gravity="center"
+        android:layout_weight="0.22"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:text="Add Profile Info"
+        android:layout_width="213dp"
+        android:layout_height="56dp"
+        android:id="@+id/button4"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:background="@drawable/spin"
+        android:layout_weight="0.18"
+        android:onClick="saveinfo" />
+
+    <Button
+        android:text="Logout"
+        android:layout_width="112dp"
+        android:layout_height="61dp"
+        android:id="@+id/button2"
+        android:textAlignment="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/spin"
+        android:layout_gravity="center"
+        android:onClick="logout" />
+
+</LinearLayout>

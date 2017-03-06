@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "410917591646",
+    "firebase_url": "https://authentication-f69dc.firebaseio.com",
+    "project_id": "authentication-f69dc",
+    "storage_bucket": "authentication-f69dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410917591646:android:914cc74bb97ac78c",
+        "android_client_info": {
+          "package_name": "com.testing.firebase_login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "410917591646-bh7dj6le8gush3j40n8j6hrli4ouigd3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnMNSjjsHyAUFbRvx-giquhQkUvhhqz7g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

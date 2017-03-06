@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.ac.iiests.iiest_shibpur">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/iieslogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+
+        <activity android:name=".Startscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Mainpage"
+            android:label="@string/title_activity_mainpage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".About_institute"
+            android:label="@string/title_activity_about_institute"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Academics"
+            android:label="@string/title_activity_academics"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Research"
+            android:label="@string/title_activity_research"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Industry"
+            android:label="@string/title_activity_industry"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Event"
+            android:label="@string/title_activity_event"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Website" />
+        <activity
+            android:name=".Homepage"
+            android:label="@string/title_activity_homepage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Institute"
+            android:label="@string/title_activity_institute"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Vission" />
+        <activity android:name=".Contact" />
+        <activity android:name=".Visitor" />
+        <activity android:name=".Campus" />
+        <activity android:name=".Rhighlights" />
+        <activity android:name=".Director" />
+        <activity
+            android:name=".Institute_"
+            android:label="@string/title_activity_institute_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Director_" />
+        <activity
+            android:name=".Test"
+            android:label="@string/title_activity_test"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Enquiry"></activity>
+    </application>
+
+</manifest>
